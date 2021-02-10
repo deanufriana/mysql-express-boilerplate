@@ -1,0 +1,26 @@
+{
+  "name": "mysql-express-boilerplate",
+  "version": "1.0.0",
+  "description": "just simple api boilerplate with typescript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js"
+  },
+  "author": "Devi Adi Nufriana",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mysilkyheart/mysql-express-boilerplate"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.25"
+  }
+}
