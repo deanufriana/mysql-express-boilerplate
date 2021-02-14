@@ -2,8 +2,8 @@ POST http://localhost:1111/product/create HTTP/1.1
 content-type: application/json
 
 {
-    "name": "Rokok",
-    "price": 20000
+    "name": "gmail",
+    "price": "42342dwdw"
 }
 
 ###

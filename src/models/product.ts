@@ -1,5 +1,5 @@
 import { DataTypes } from 'sequelize'
-import db from '../utils/database';
+import db from '../middleware/database';
 
 const Product = db.define('Product', {
     id: {
@@ -9,7 +9,7 @@ const Product = db.define('Product', {
     },
     name: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: false,
     },
     price: {
         type: DataTypes.INTEGER,
